@@ -1,0 +1,84 @@
+Creating job:
+/log/logmon/baas-app.log.1:WMPLTFMLOG261261	1542952024276	2018-11-23 05:47:04.276	baas-11026274-1-55279238	21db8092-67-1673f1b78d3000	-	21db8092-67-1673f1b78d3000	-	PRODbaas-app	prod-dfw3	prod	4.69.4	21db8092-67-1673f1b78d4000	INFO	INFO	-	-	applog.cls=com.walmart.platform.baas.app.resource.JobResource,applog.mthd=create,applog.line=180,applog.msg=Creating job,jobName=LetuceRecallJob
+
+Updating job:
+/log/logmon/baas-app.log:WMPLTFMLOG261261	1543001941362	2018-11-23 19:39:01.362	baas-11026402-1-51780568	16510c45-6c-16742152571000	-	16510c45-6c-16742152571000	-	PRODbaas-app	prod-dfw4	prod	4.69.4	16510c45-6c-16742152572001	INFO	INFO	-	-	applog.cls=com.walmart.platform.baas.app.resource.JobResource,applog.mthd=update,applog.line=225,applog.msg=Updating job,jobName=AnsibleLoadJob
+
+Deleting job:
+/log/logmon/baas-app.log:WMPLTFMLOG261261	1543001906877	2018-11-23 19:38:26.877	baas-11026274-1-55279238	21db8092-6d-16742149ebc000	-	21db8092-6d-16742149ebc000	-	PRODbaas-app	prod-dfw3	prod	4.69.4	21db8092-6d-16742149ebd000	INFO	INFO	-	-	applog.cls=com.walmart.platform.baas.app.resource.JobResource,applog.mthd=delete,applog.line=321,applog.msg=Deleting job,jobName=AnsibleLoadJob-Copy
+
+Creating runnable:
+/log/logmon/baas-app.log:WMPLTFMLOG261261	1543001915544	2018-11-23 19:38:35.544	baas-11026402-1-51780568	16510c45-72-1674214c097000	-	16510c45-72-1674214c097000	-	PRODbaas-app	prod-dfw4	prod	4.69.4	16510c45-72-1674214c098000	INFO	INFO	-	-	applog.msg=Creating runnable,jobName=AnsibleLoadJob,runnableName=Adhoc-14
+
+Updating runnable:
+/log/logmon/baas-app.log.1:WMPLTFMLOG261261	1542921168729	2018-11-22 21:12:48.729	baas-11026274-1-55279238	21db8092-75-1673d44a758000	-	21db8092-75-1673d44a758000	-	PRODbaas-app	prod-dfw3	prod	4.69.4	21db8092-75-1673d44a759000	INFO	INFO	-	-	applog.msg=Updating runnable,jobName=SyncOMSstatusToFoci,runnableName=syncOMSstatusToFoci_vanilla
+
+Deleting runnable:
+/log/logmon/baas-app.log:WMPLTFMLOG261261	1543001922992	2018-11-23 19:38:42.992	baas-11026402-1-51780568	16510c45-6b-1674214ddaf000	-	16510c45-6b-1674214ddaf000	-	PRODbaas-app	prod-dfw4	prod	4.69.4	16510c45-6b-1674214ddb0000	INFO	INFO	-	-	applog.msg=Deleting runnable,jobName=AnsibleLoadJob,runnableName=Adhoc-14
+
+Scheduling runnable:
+/log/logmon/baas-app.log.1:WMPLTFMLOG261261	1542957940759	2018-11-23 07:25:40.759	baas-11026274-1-55279238	-	-	-	                                                -	PRODbaas-app	prod-dfw3	prod	4.69.4	21db8092-3b-1673f75c017000	INFO	INFO	-	-	-	-	applog.cls=com.walmart.platform.baas.app.scheduler.Activator,applog.mthd=schedule,applog.line=102,applog.msg=Scheduling runnable,jobName=purgeListItems,runnableName=purgeListItems
+
+Deactivating runnable as job was not found:
+???
+
+Handling broadcast for runnable:
+/log/logmon/baas-app.log.1:WMPLTFMLOG261261	1542957967777	2018-11-23 07:26:07.777	baas-11026402-1-51780568	-	-	-	-	PROD	baas-app	prod-dfw4	prod	4.69.4	16510c45-3d-1673f7629a1000	INFO	INFO	-	-	-	-	applog.cls=com.walmart.platform.baas.app.listener.ServerBroadcastListener,applog.mthd=handleMessage,applog.line=35,applog.msg=Handling broadcast for runnable,jobName=preOrderModification,runnableName=preOrderModification,runnableAction=ACTIVATE
+
+Ignoring scheduled runnable:
+/log/logmon/baas-app.log.1:WMPLTFMLOG261261	1542957940773	2018-11-23 07:25:40.773	baas-11026402-1-51780568	-	-	-	-	PROD	baas-app	prod-dfw4	prod	4.69.4	16510c45-3d-1673f75c025000	WARN	WARN	-	-	-	-	applog.cls=com.walmart.platform.baas.app.scheduler.Activator,applog.mthd=schedule,applog.line=105,applog.msg=Ignoring scheduled runnable,jobName=purgeListItems,runnableName=purgeListItems
+
+Creating new iteration:
+/log/logmon/baas-app.log:WMPLTFMLOG261261	1542969960181	2018-11-23 10:46:00.181	baas-11026402-1-51780568	-	-	-	-	PROD	baas-app	prod-dfw4	prod	4.69.4	16510c45-50-167402d26f5001	INFO	INFO	-	-	-	-	applog.cls=com.walmart.platform.baas.app.scheduler.IterationCreator,applog.mthd=createIteration,applog.line=68,applog.msg=Creating new iteration,jobName=saam-mupd8-client,runnableName=saam-mupd8-client-dcGroup3
+
+Launching new iteration:
+/log/logmon/baas-app.log:WMPLTFMLOG261261	1542969950040	2018-11-23 10:45:50.040	baas-11026402-1-51780568	-	-	-	-	PROD	baas-app	prod-dfw4	prod	4.69.4	16510c45-52-167402cff58000	INFO	INFO	-	-	-	-	applog.cls=com.walmart.platform.baas.app.scheduler.ActivationTask,applog.mthd=run,applog.line=50,applog.msg=Launching new iteration,jobName=getNetscalerLogs,runnableName=getNetscalerLogs,approximateIterationCreationTime=1542969950000
+
+Launch of new iteration was ignored because another server has already launched iteration for this time:
+/log/logmon/baas-app.log:WMPLTFMLOG261261	1542969960203	2018-11-23 10:46:00.203	baas-11026402-1-51780568	-	-	-	-	PROD	baas-app	prod-dfw4	prod	4.69.4	16510c45-4d-167402d270b000	INFO	INFO	-	-	-	-	applog.cls=com.walmart.platform.baas.app.scheduler.ActivationTask,applog.mthd=run,applog.line=54,applog.msg=Launch of new iteration was ignored because another server has already launched iteration for this time,jobName=Two_day_omslogs,runnableName=two_day_omslogs_runnable,approximateIterationCreationTime=1542969960003
+
+Launch of new iteration was ignored as it's marked NOT_ACTIVE in database:
+???
+
+Launched new iteration:
+/log/logmon/baas-app.log:WMPLTFMLOG261261	1542969950114	2018-11-23 10:45:50.114	baas-11026402-1-51780568	-	-	-	-	PROD	baas-app	prod-dfw4	prod	4.69.4	16510c45-52-167402cffa2000	INFO	INFO	-	-	-	-	applog.cls=com.walmart.platform.baas.app.scheduler.IterationLauncher,applog.mthd=launch,applog.line=131,applog.msg=Launched new Iteration,jobName=getNetscalerLogs,runnableName=getNetscalerLogs,iterationVersion=1542969950091,serverHost=baas-11026402-1-51780568
+
+Started iteration:
+/log/logmon/baas-app.log:WMPLTFMLOG261261	1542969960586	2018-11-23 10:46:00.586	baas-11026402-1-51780568	-	-	-	-	PROD	baas-app	prod-dfw4	prod	4.69.4	16510c45-4b-167402d288a001	INFO	INFO	-	-	-	-	applog.cls=com.walmart.platform.baas.app.scheduler.IterationLauncher,applog.mthd=launch,applog.line=136,applog.msg=Started iteration ,jobName=LMDE-PROD-RoundRobinOptimizerScheduler,runnableName=LMDE-PROD-RoundRobinOptimizerScheduler,iterationVersion=1542969960248
+
+Iteration was not started as launch checker acted on this iteration:
+/log/logmon/baas-app.log:WMPLTFMLOG261261	1542970801396	2018-11-23 11:00:01.396	baas-11026402-1-51780568	-	-	-	-	PROD	baas-app	prod-dfw4	prod	4.69.4	16510c45-4c-1674039fcf4000	INFO	INFO	-	-	-	-	applog.cls=com.walmart.platform.baas.app.scheduler.IterationLauncher,applog.mthd=launch,applog.line=142,applog.msg=Iteration was not started as launch checker acted on this iteration,jobName=LMDE-PullThdOrdersScheduler,runnableName=prodPullTHD,iterationVersion=1542970801256
+
+Failed to save iteration:
+???
+
+Failed to send message to launch iteration
+???
+
+Failed to start iteration:
+???
+
+Launching waiting iteration:
+/log/logmon/baas-app.log.1:WMPLTFMLOG261261	1542942980049	2018-11-23 03:16:20.049	baas-11026274-1-55279238	-	-	-	-	PROD	baas-app	prod-dfw3	prod	4.69.4	21db8092-47-1673e9177d1000	INFO	INFO	-	-	-	-	applog.cls=com.walmart.platform.baas.app.scheduler.IterationLauncher,applog.mthd=launchWaiting,applog.line=215,applog.msg=Launching waiting iteration,jobName=vulcan-exception-reprocessor,runnableName=default-retry,iterationVersion=1542942902448
+
+Sending launch message:
+/log/logmon/baas-app.log:WMPLTFMLOG261261	1542970680730	2018-11-23 10:58:00.730	baas-11026274-1-55279238	-	-	-	-	PROD	baas-app	prod-dfw3	prod	4.69.4	21db8092-57-1674038259a000	INFO	INFO	-	-	-	-	applog.cls=com.walmart.platform.baas.app.scheduler.IterationLauncher,applog.mthd=sendMessage,applog.line=276,applog.msg=Sending launch message.,jobName=saam-sas-prefetch,runnableName=sas-prefetch-28,iterationVersion=1542970680413
+
+Failed to send launch message:
+???
+
+Updating iteration SLA status as it exceeded (maxtime + overtime):
+/log/logmon/baas-app.log:WMPLTFMLOG261261	1542970564264	2018-11-23 10:56:04.264	baas-11026402-1-51780568	-	-	-	-	PROD	baas-app	prod-dfw4	prod	4.69.4	16510c45-2d-16740365ea8000	INFO	INFO	-	-	-	-	applog.msg=Updating iteration SLA status as it exceeded (maxtime + overtime),jobName=LMDEMessageReprocessJob,runnableName=productionMessageReprocessSchedulerDriver,iterationVersion=1542970500701,iterationStatus=RUNNING,iterationSlaStatus=NOT_AVAILABLE
+
+Updating iteration status as it exceeded IterationStatusTimeOutPeriod:
+/log/logmon/baas-app.log:WMPLTFMLOG261261	1542973747382	2018-11-23 11:49:07.382	baas-11026274-1-55279238	-	-	-	-	PROD	baas-app	prod-dfw3	prod	4.69.4	21db8092-3c-1674066f0b6000	INFO	INFO	-	-	-	-	applog.msg=Updating iteration status as it exceeded IterationStatusTimeOutPeriod: 60000,jobName=LMDE-PROD-RoundRobinOptimizerScheduler,runnableName=LMDE-PROD-RoundRobinOptimizerScheduler,iterationVersion=1542973680610,iterationStatus=QUEUED,iterationSlaStatus=NOT_AVAILABLE
+
+Updating iteration status and SLA status:
+/log/logmon/baas-app.log:WMPLTFMLOG261261	1542970680929	2018-11-23 10:58:00.929	baas-11026274-1-55279238	-	-	-	-	PROD	baas-app	prod-dfw3	prod	4.69.4	21db8092-44-16740382661000	INFO	INFO	-	-	-	-	applog.msg=Updating iteration status and SLA status,jobName=sng-catalog-trigger-runnable-prod,runnableName=sng-catalog-trigger-runnable-prod-new,iterationVersion=1542969002435,iterationStatus=RUNNING,iterationSlaStatus=NOT_AVAILABLE
+
+
+
+
+
+
+
